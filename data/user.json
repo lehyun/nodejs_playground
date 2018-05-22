@@ -1,0 +1,17 @@
+{
+	"abet.1": {
+		"name": "abet",
+		"password": "U2FsdGVkX19J14/Oy3k8XvZFCJVzz+jZ48s+ArAwlJQ=",
+		"encryption": true
+	},
+	"betty.1": {
+		"name": "betty",
+		"password": "U2FsdGVkX19qeYLJmJVDRWqPyWOKvB+PYq6oU/h9pWo=",
+		"encryption": true
+	},
+	"david.1": {
+		"name": "david",
+		"password": "U2FsdGVkX1/O4HOy0baq0DWzIBRd3qD8Z1s0lEFGqIY=",
+		"encryption": true
+	}
+}

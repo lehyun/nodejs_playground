@@ -1,0 +1,21 @@
+
+<h1>ALL RESTful APIs</h1>
+<ul>
+    <% app._router.stack.forEach(function(r){ %>
+        <% if (r.route && r.route.path){ %>
+            <li>
+                <%= `${r.route.path}` %>
+            </li>
+        <% }}); %>
+</ul>
+
+<% if (session.token) { %>
+    <h2>Welcome, <%= session.userid %>!!</h2>
+    <ul>
+        <li>Name : <%= `${session.username}` %> </li>
+        <li>Login Time : <%= `${session.time}` %> </li>
+        <li>Token : <%= `${session.token}` %> </li>
+    </ul>
+<% } else { %>
+    <h2>Please Login.</h2>
+<% } %>
