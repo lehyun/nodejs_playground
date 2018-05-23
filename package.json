@@ -1,12 +1,16 @@
 {
-  "name": "express-tutorial",
+  "name": "nodejs-playground",
   "version": "1.0.0",
+  "author": "Hyun Lee",
+  "license": "MIT",
+  "description": "nodejs-playground",
+  "repository": {},
   "dependencies": {
-    "body-parser": "~1.14.2",
+    "body-parser": "~1.18.2",
     "crypto-js": "^3.1.9-1",
     "ejs": "^2.5.9",
-    "express": "~4.13.1",
-    "express-session": "~1.13.0",
+    "express": "~4.16.3",
+    "express-session": "~1.15.6",
     "md5": "^2.2.1"
   }
 }
